@@ -1,0 +1,102 @@
+.card .card-body {
+    padding: 0.5rem 0.5rem;
+}
+.nav-link.active {
+    color: rgb(251, 249, 249) !important;
+    background-color: #f46b45 !important;
+  }
+
+.iconcolor{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.iconcolor:hover{
+    color: rgb(10, 10, 10);
+}
+
+.updatebtn{
+    text-align: right;
+    bottom: 50px;
+    position:relative;
+    height: 25px;
+}
+
+.backbutton{
+    text-align: right;
+    bottom: 40px;
+    position:relative;
+    height: 25px;
+}
+
+.item-center {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+  }
+
+.heading{
+    line-height:2;
+    position: relative;
+    top:2px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+.messagedisplay{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    display: flex;
+}
+
+.cardheadertext{
+    top:'20px !imporatnt';
+    font-size: 15px;
+}
+
+
+/* SOME CUSTOM CSS */
+.content-wrapper {
+    overflow-x: auto!important;
+}
+
+.btn-primary {
+    
+    background-color: #f1690de0!important;
+    border-color: #f1690de0!important;
+}
+
+.btn-primary:hover  {
+    background-color: #f46b45!important;
+    border-color: #f46b45!important;
+}
+
+.wrapper-class {
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  .editor-class {
+    background-color:lightgray;
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  .toolbar-class {
+    border: 1px solid #ccc;
+  }

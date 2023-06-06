@@ -1,0 +1,12 @@
+{
+    "apps": [
+      {
+        "name": "inanihub-admin-backend",
+        "script": "index.js",
+        "node_args": [
+          "--experimental-json-modules",
+          "--es-module-specifier-resolution=node"
+        ]
+      }
+    ]
+  }

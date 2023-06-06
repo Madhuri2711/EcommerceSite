@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Men",
+        "img": "category/men.png",
+        "isActive": true,
+        "order": 1
+    },
+    {
+        "name": "Women",
+        "img": "category/women.png",
+        "isActive": true,
+        "order": 1
+    },
+    {
+        "name": "Pets",
+        "img": "category/pets.png",
+        "isActive": true,
+        "order": 1
+    },
+    {
+        "name": "Kids",
+        "img": "category/kids.png",
+        "isActive": true,
+        "order": 1
+    },
+    {
+        "name": "Others",
+        "img": "category/lifestyle.png",
+        "isActive": true,
+        "order": 1
+    }
+]

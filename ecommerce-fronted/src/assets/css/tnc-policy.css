@@ -1,0 +1,32 @@
+/* .policy {
+  font-family: Inter;
+} */
+.policy p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #717477;
+}
+.policy ul > li {
+  font-size: 1.1rem !important;
+  line-height: 1.8rem !important;
+  color: #717477 !important;
+  padding-left: 15px !important;
+}
+
+.policy ul li::before{
+  content: '';
+  height: 10px;
+  width:10px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #717477;
+  margin-right: 10px;
+}
+.policy > ul,
+.policy > h3 {
+  margin: 1rem 0 !important;
+}
+.policy > p > b {
+  font-size: 1.37rem;
+  color: black;
+}

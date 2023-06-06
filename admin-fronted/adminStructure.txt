@@ -1,0 +1,69 @@
+SIDEBAR
+ 1) DASHBOARD	
+		- facebookLink (Text Field)	
+        - InstagramLink
+        - TwitterLink
+        - LinkedInLink 
+        - Contact Email
+        - Contact Number
+        - Created Date
+    	- Updated Date 
+		
+
+2) Inquiry API DETAILS ( List, Add, Edit, Update, Delete)
+	( Add/Edit/Update/Delete)
+	GET_ALL	- api/inquiry
+	GETById	- api/inquiry/1
+	POST - api/inquiry
+			Payload {
+				Name: "dharmik",
+				Email: "dharmik@gmail.com",
+				Message: "AFdsdfs fdsf"
+			}
+	PUT - api/inquiry/2
+			Payload {
+				Name: "dharmik",
+				Email: "dharmik@gmail.com",
+				Message: "AFdsdfs fdsf"
+			}
+	DELETE - api/inquiry/2
+	
+3) FAQ API:  ( List, Add,Edit, Update, Delete)
+			Question
+			Answer
+
+4) Blogs API ( List, Add,Edit, Update, Delete)
+	- Blog Desription1
+	- Blog Desription2
+	- Cover Image
+	- Other Images
+
+5) News Letter Subscriptions ( List, Add,Edit, Update, Delete)
+		- Email 
+
+
+6) General Setings
+		- landingTitle
+		- landingDescription
+		- getStartedButtonText
+		- productDescription
+		- productCEOText
+        - productCEONameText
+        - downloadAppTitle
+        - downloadAppInfo
+
+        - stepOneTitle
+        - stepOneInfo
+        - stepTwoTitle
+        - stepTwoInfo
+        - stepThreeTitle
+        - stepThreeInfo
+
+        - howItworksTitle
+        - SellerTitle
+        - SellerStepsInfo ( Array)
+        - BuyerTitle ( Array)
+        - BuyerStepsInfo ( Array)
+        - contactUsTitle	
+        - getInTouchTitle
+        - contactUsInfo

@@ -1,0 +1,115 @@
+.card {
+  background-color: transparent;
+  perspective: 1000px;
+  width: 350px;
+  background: transparent;
+  height: 200px;
+  margin: auto;
+  box-sizing: border-box;
+
+  .cardInnerTransform {
+    transform: rotateY(180deg);
+  }
+  .cardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+    .cardFront {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      background: linear-gradient(
+        127deg,
+        #F1941E,
+        rgba(71, 71, 97, 1)
+      );
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .cardNumber {
+        display: flex;
+        flex-direction: row;
+        .numberItem {
+          font-size: 15px;
+          transition: font-size 0.2s;
+        }
+        .numberTransform {
+          font-size: 20px;
+        }
+      }
+
+      .chip {
+        display: flex;
+        flex-grow: 1;
+        img {
+          height: 50px;
+        }
+      }
+
+      .cardType {
+        align-self: flex-start;
+        flex-grow: 1;
+        text-align: right;
+      }
+
+      .numberItem {
+        display: inline-block;
+        width: 16px;
+      }
+      .numberSeparator {
+        color: transparent;
+        width: 10px;
+      }
+    }
+
+    .cardBack {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      padding: 10px;
+      margin-left: -20px;
+      box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+      backface-visibility: hidden;
+      background: linear-gradient(
+        127deg,
+        #F1941E,
+        rgba(71, 71, 97, 1)
+      );
+      transform: rotateY(180deg);
+
+      .band {
+        width: 100%;
+        height: 25px;
+        background-color: black;
+      }
+      .cvv {
+        margin-top: 25px;
+      }
+      .cvvLabel {
+        text-align: right;
+      }
+      .cvvField {
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        background-color: white;
+      }
+    }
+  }
+}

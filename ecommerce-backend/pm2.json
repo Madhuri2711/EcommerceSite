@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "inanihub-api",
+      "script": "index.js",
+      "node_args": [
+        "--experimental-json-modules",
+        "--es-module-specifier-resolution=node"
+      ]
+    },
+    {
+      "name": "inanihub-tracking",
+      "script": "./scheduler/orderTracking.js",
+      "node_args": [
+        "--experimental-json-modules",
+        "--es-module-specifier-resolution=node"
+      ]
+    },
+    {
+      "name": "inanihub-wallet-release",
+      "script": "./scheduler/walletAmountRelease.js",
+      "node_args": [
+        "--experimental-json-modules",
+        "--es-module-specifier-resolution=node"
+      ]
+    }
+  ]
+}

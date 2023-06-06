@@ -1,0 +1,267 @@
+.how-to-use {
+  /* width: 1920px;
+  height: 2151px; */
+  background: #fbdead;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.how-to-use > .sellers {
+  padding-top: 94px;
+}
+.sellers > .head {
+  /* width: 337px;
+  height: 78px; */
+  margin: 0 auto;
+  /* margin-top: 94px; */
+}
+.head > h2 {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 63px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #04231a;
+}
+.head > hr {
+  width: 166px;
+  height: 3px;
+  margin: 12px auto 22px;
+  background: #ff900d;
+  border: none;
+}
+.body {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  max-width: 100%;
+  /* justify-content: space-between; */
+}
+/* .sellers .left {
+  width: 40%;
+} */
+.body .outer-div,
+.body .inner-div {
+  /* width: 838.19px; */
+  height: 736.78px;
+  width: 90%;
+  border-radius: 0px 84.8717px;
+  max-width: 100%;
+}
+.body .outer-div {
+  background: linear-gradient(191.74deg, #f46b45 1.04%, #f09819 97.09%);
+  transform: rotate(12.65deg);
+  position: relative;
+  left: -90px;
+}
+/* .body .sellers .outer-div {
+  position: relative;
+  left: -90px;
+} */
+.body .inner-div {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 6.00103px 42.8645px rgba(0, 0, 0, 0.1);
+  transform: rotate(-6.48deg);
+  justify-content: center;
+  position: absolute;
+  left: -10px;
+  top: -5px;
+}
+.inner-div > .mobile-img-buyers,
+.inner-div > .mobile-img-sellers {
+  /* width: 90%; */
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+.inner-div > .mobile-img-sellers {
+  transform: rotate(-6.48deg);
+  /* top: -40px; */
+}
+.sellers .right,
+.buyers .left {
+  margin-top: 50px;
+}
+.right > .points > h2 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 54px;
+  color: #f46b45;
+}
+.right > .points {
+  width: 80%;
+  margin: 0 auto;
+  /* margin-top: 50px; */
+}
+.points ol {
+  /* width: 531px;
+  height: 480px; */
+  list-style: none;
+  counter-reset: item;
+  position: relative;
+}
+.points ol li {
+  counter-increment: item;
+  margin-bottom: 5px;
+  position: relative;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 25px 0;
+  color: #7a7c7e;
+}
+.points ol li span {
+  font-weight: 600;
+}
+.points ol li:before {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  content: counter(item);
+  background: linear-gradient(191.74deg, #f46b45 1.03%, #f09819 97.09%);
+  box-shadow: 0px 5px 14px rgba(240, 152, 25, 0.25);
+  border-radius: 100%;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  position: absolute;
+  left: -60px;
+  /* top: -3px; */
+}
+
+/* Buyers */
+/* .buyers {
+  display: flex;
+} */
+.buyers > .body {
+  padding-bottom: 150px;
+}
+.buyers .right {
+  padding-left: 20px;
+}
+.buyers .right,
+.sellers .right {
+  /* width: 40%; */
+  margin: 50px 0 0 50px;
+}
+.buyers .outer-div {
+  transform: matrix(-0.98, 0.22, 0.22, 0.98, 0, 0);
+  right: -90px;
+  left: 25%;
+  top: 10px;
+}
+.buyers .mobile-img-buyers {
+  /* width: 499.58px;
+  height: 745px; */
+  /* top: -40px; */
+  transform: matrix(-0.99, 0.11, 0.11, 0.99, 0, 0);
+}
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+  .body .outer-div {
+    width: 100%;
+  }
+  .buyers .mobile-img-buyers,
+  .sellers .mobile-img-sellers {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .how-to-use .head > h2,
+  .right > .points > h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .head > hr {
+    width: 100px;
+  }
+  .sellers .body {
+    display: block;
+  }
+  .buyers > .body {
+    flex-direction: column-reverse;
+  }
+  .buyers .outer-div {
+    /* left: 19%; */
+    left: 25%;
+  }
+  .buyers .right,
+  .sellers .right {
+    margin-top: 150px;
+  }
+  .buyers .points > ol {
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .body .outer-div,
+  .body .inner-div {
+    width: 401.25px;
+    height: 352.7px;
+    max-width: 100%;
+  }
+  .buyers .outer-div {
+    left: 17%;
+  }
+  .sellers .outer-div {
+    left: -60px;
+  }
+  .sellers .mobile-img-sellers,
+  .buyers .mobile-img-buyers {
+    width: 163.24px;
+    height: 355.68px;
+    left: 30%;
+    /* top: -25px; */
+    top: 0;
+  }
+
+  .sellers .mobile-img-sellers {
+    transform: matrix(1.5, -0.2, 0.1, 1.1, -0.5, 1);
+  }
+  .buyers .mobile-img-buyers {
+    transform: matrix(-1.53, 0.11, 0.11, 1.15, 0, 0);
+  }
+  .buyers .right,
+  .sellers .right {
+    margin-top: 100px;
+  }
+  .buyers .body {
+    padding-bottom: 50px;
+  }
+  .right .points h2 {
+    font-size: 24px;
+  }
+  .points ol li {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 0;
+  }
+  .points ol li::before {
+    width: 27px;
+    height: 27px;
+    padding-top: 3px;
+  }
+  .how-to-use {
+    margin: 50px 0;
+  }
+  .how-to-use .sellers {
+    padding-top: 50px;
+  }
+  .how-to-use .head > h2 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .head > hr {
+    width: 70.22px;
+    height: 1.27px;
+  }
+  .how-to-use .sellers .body {
+    margin-top: 70px;
+  }
+  .how-to-use .buyers .body {
+    margin-top: 40px;
+  }
+}

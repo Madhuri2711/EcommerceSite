@@ -1,0 +1,661 @@
+[
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Dress",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Bags",
+        "img": "",
+        "size": [
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Jeans",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Tops",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Shoes",
+        "img": "",
+        "size": [
+            "2",
+            "2.5",
+            "3",
+            "3.5",
+            "4",
+            "4.5",
+            "5",
+            "5.5",
+            "6",
+            "6.5",
+            "7",
+            "7.5",
+            "8",
+            "8.5",
+            "9",
+            "9.5",
+            "10",
+            "10.5",
+            "11",
+            "11.5",
+            "12",
+            "12.5",
+            "13",
+            "13.5",
+            "14",
+            "14.5",
+            "15",
+            "15.5",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Skirt",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Sneakers",
+        "img": "",
+        "size": [
+            "2",
+            "2.5",
+            "3",
+            "3.5",
+            "4",
+            "4.5",
+            "5",
+            "5.5",
+            "6",
+            "6.5",
+            "7",
+            "7.5",
+            "8",
+            "8.5",
+            "9",
+            "9.5",
+            "10",
+            "10.5",
+            "11",
+            "11.5",
+            "12",
+            "12.5",
+            "13",
+            "13.5",
+            "14",
+            "14.5",
+            "15",
+            "15.5",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Make up",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Skin care",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Perfume",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Hair/Extensions",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Jewelery",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Watch",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Jackets",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Belts",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Scarf",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54d",
+        "name": "Others",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Jeans",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Shirt",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Bags",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Suits",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Pants",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Short",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Shoe",
+        "img": "",
+        "size": [
+            "2",
+            "2.5",
+            "3",
+            "3.5",
+            "4",
+            "4.5",
+            "5",
+            "5.5",
+            "6",
+            "6.5",
+            "7",
+            "7.5",
+            "8",
+            "8.5",
+            "9",
+            "9.5",
+            "10",
+            "10.5",
+            "11",
+            "11.5",
+            "12",
+            "12.5",
+            "13",
+            "13.5",
+            "14",
+            "14.5",
+            "15",
+            "15.5",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Sneakers",
+        "img": "",
+        "size": [
+            "2",
+            "2.5",
+            "3",
+            "3.5",
+            "4",
+            "4.5",
+            "5",
+            "5.5",
+            "6",
+            "6.5",
+            "7",
+            "7.5",
+            "8",
+            "8.5",
+            "9",
+            "9.5",
+            "10",
+            "10.5",
+            "11",
+            "11.5",
+            "12",
+            "12.5",
+            "13",
+            "13.5",
+            "14",
+            "14.5",
+            "15",
+            "15.5",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Underwear",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Watch",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Jewelery",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Jackets",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Belts",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54c",
+        "name": "Others",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Jeans",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Shirt",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Pants",
+        "img": "",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Shoe",
+        "img": "",
+        "size": [
+            "2",
+            "2.5",
+            "3",
+            "3.5",
+            "4",
+            "4.5",
+            "5",
+            "5.5",
+            "6",
+            "6.5",
+            "7",
+            "7.5",
+            "8",
+            "8.5",
+            "9",
+            "9.5",
+            "10",
+            "10.5",
+            "11",
+            "11.5",
+            "12",
+            "12.5",
+            "13",
+            "13.5",
+            "14",
+            "14.5",
+            "15",
+            "15.5",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Sneakers",
+        "img": "",
+        "size": [
+            "2",
+            "2.5",
+            "3",
+            "3.5",
+            "4",
+            "4.5",
+            "5",
+            "5.5",
+            "6",
+            "6.5",
+            "7",
+            "7.5",
+            "8",
+            "8.5",
+            "9",
+            "9.5",
+            "10",
+            "10.5",
+            "11",
+            "11.5",
+            "12",
+            "12.5",
+            "13",
+            "13.5",
+            "14",
+            "14.5",
+            "15",
+            "15.5",
+            "Other"
+        ],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Bags",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Toys",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Belts",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Watch",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54f",
+        "name": "Others",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54e",
+        "name": "Dogs",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54e",
+        "name": "Cats",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f54e",
+        "name": "Others",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f550",
+        "name": "Kitchen",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f550",
+        "name": "Bath",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f550",
+        "name": "Art",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f550",
+        "name": "Decor",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f550",
+        "name": "Bedding",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f550",
+        "name": "Design",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    },
+    {
+        "cat_id": "627695febec003b6c0e0f550",
+        "name": "Others",
+        "img": "",
+        "size": ["Other"],
+        "isActive": true
+    }
+]
